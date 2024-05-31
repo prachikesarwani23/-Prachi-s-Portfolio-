@@ -1,0 +1,541 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    border: border-box;
+} 
+ 
+html{
+    scroll-behavior: smooth;
+   
+}
+body{
+    background-color: black;
+     color: #fff; 
+     /* display: flex;
+     flex-direction: column;
+     min-width: 70vh; */
+     /* margin: 0 auto;
+     height: 100vh;
+     height: -webkit-fill-available; */
+     line-height: 1.7;
+     font-weight: var(--font-medium);
+}
+
+  #continer{
+ 
+   height: 40rem;
+   width: 70rem;
+   position: fixed;
+
+ /* background-image: url(image/pixiz-24-05-2024-11-50-40.jpg);
+ background-position: center;
+ height: 100px;
+ width: 100px; */
+  
+
+   
+   
+} 
+
+ul il{
+    display: inline-block;
+     list-style: none; 
+    margin: 5vh;
+    
+    
+}   
+ul il a{
+    color: rgb(243, 240, 236);
+    font-size: 4vh;
+     text-decoration: underline red; 
+
+    transition-property: all;
+    transition-duration: 2s;
+    
+}
+
+ul il a:hover{
+    
+    /* width: 100%; */
+    color: rgb(228, 8, 8);
+    font-size: 4.4vh;
+}
+
+
+
+ 
+#homi{
+    text-align: right;
+    position: absolute;
+    right: 10vh ;
+    bottom: 50vh;
+    font-size: 4.7vh;
+   
+}
+#homi span
+{
+    color: red;
+    transition-property: all;
+    transition-duration: 0.5s;
+} 
+ #homi span :hover{
+    font-size:4.9vh ;
+    
+   
+} 
+#q{
+    font-size: 4vh;
+    position: absolute;
+    bottom: -10.3vh;
+    right: 5.3vh;
+}
+#icons a{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 25vh;
+    bottom: -25vh;
+    font-size: 5vh;
+    transition-property: all;
+    transition-duration: 0.5s;
+
+}
+#icons1 a{
+    color:#fff;
+    position: absolute;
+    right: 17vh;
+    bottom: -25vh;
+    font-size: -5vh; ;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+#icons2 a{
+    color: #fff;
+    position: absolute;
+    bottom: -25vh;
+    right: 8vh;
+    font-size: 5vh;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+#icons a:hover{
+    color: rgb(218, 35, 111);
+}
+#icons1 a:hover{
+    color:rgb(28, 28, 172)
+}
+#icons2 a:hover
+{
+    color: rgb(105, 93, 93);
+}
+/* 
+#op{
+    height: 500px;
+    width: 200px;
+} */
+#circle{
+    height: 60.5vh;
+    width: 60.5vh;
+    border-radius: 50vh;
+     border: 5px solid red;
+    /* border-top: 5px solid rgb(255, 251, 251);  */
+    position: absolute;
+    bottom: 8rem;
+    left: 8rem;
+    height: calc(100vh-40vh);
+    background-image: url(image/pixiz-24-05-2024-11-50-40.jpg);
+     background-size:23rem; 
+   
+    box-shadow: 0 0 3rem red;
+    
+   }
+   
+
+   /* ........................about me..................... */
+   #fof {
+    padding: 10vh;
+    position: absolute;
+    bottom: -40vh;
+    left:5vh;
+    font-size:5vh;
+  text-decoration: underline rgb(255, 0, 0);
+  color: red;
+  transition-property: all;
+  transition-duration: o.5s;
+   }
+   #fof  :hover
+{
+    
+    font-size: 13vh ;
+  
+}
+#cs{
+    font-size: 2.8vh;
+    position: absolute;
+    bottom: -50rem;
+    left:10vh;
+    top: 140vh;
+    line-height:5vh;
+}
+
+
+
+/* --------------------------Education------------------------------- */
+
+.tab-title{
+    font-size:2rem;
+    font-weight: 100;
+    color: rgb(255, 0, 0);
+     display: flex;
+    margin-right: 10rem 0 auto;  
+    position: absolute;
+    bottom: -60rem;
+    right: 10rem;
+    text-decoration: underline red;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.tab-title:hover
+{
+    font-size: 2.2rem;
+}
+
+#section #educt{
+    position: absolute;
+    bottom: -80rem;
+    right:5rem ;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+#section #educt li span
+{
+    color: red;
+}
+/* ---------------------------------------------------skill------------------------- */
+#sk{
+    position: absolute;
+   bottom: -100rem; 
+   left: 10rem;
+   font-size:2.2rem ;
+   color: red;
+   text-decoration: underline red;
+   transition-property: all;
+   transition-duration: 0.5s;
+   
+}
+#sk:hover{
+   font-size: 2.4rem;
+} 
+
+.skill-section{
+ 
+    position: relative;
+    bottom: -140rem;
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+   
+    
+}
+.box{
+    border: 0.2rem solid rgb(255, 255, 255);
+    height: 15rem;
+    width: 17rem;
+    background-color: rgb(248, 33, 194);
+    border-radius: 1rem;
+    /* position: absolute;
+    bottom: -200rem; */
+    transition-property: all;
+    transition-duration: 0.5s;
+
+}
+.box:hover{
+   transform:translateY(-4rem);
+}
+
+
+ 
+.skill-section .box1{
+    background-color: rgb(156, 244, 250);
+    box-shadow: 0 0 2rem rgb(255,255,108);
+    
+}  
+
+.skill-section .box2 {
+    background-color: rgb(159, 159, 250);
+    box-shadow: 0 0 2rem rgb(159,159,250);
+}
+.skill-section .box3{
+    background-color: rgb(129, 253, 129);
+    box-shadow: 0 0 2rem rgb(129,253,129);
+}
+.skill-section .box4{
+    background-color: rgb(255, 190, 70);
+    box-shadow: 0 0 2rem rgb(255,190,70);
+    
+
+}
+.skill-section .box1 img{
+    height: 10rem;
+    width: 10rem;
+    
+}
+.skill-section .box1 h2{
+    color: rgb(8, 8, 241);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.skill-section .box2 img{
+    height: 10rem;
+    width: 10rem;
+}
+.skill-section .box2 h2{
+    color: rgb(11, 11, 110);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.skill-section .box3 img{
+    height: 10rem;
+    width: 10rem;
+}
+.skill-section .box3 h2{
+    color: rgb(11, 11, 110);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.skill-section .box4 img{
+    height: 10rem;
+    width: 10rem;
+}
+.skill-section .box4 h2{
+    color: rgb(11, 11, 110);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+/* -----------------------------------------------Project----------------------------------------- */
+#pro{
+    position: absolute;
+    bottom: -135rem;
+    left: 10rem;
+    font-size: 2.2rem;
+    color: red;
+    text-decoration: underline red;
+    transition-property: all;
+    transition-duration: 0.5s;
+
+}
+#pro:hover{
+    font-size: 2.4rem;
+}
+
+.picture{
+    position: absolute;
+    bottom: -160rem;
+    display: grid;
+    display: flex;
+    grid-gap: 4rem;
+    left: 10rem; 
+    
+    
+   
+    
+}
+
+#picture1{
+    box-shadow: 0 0 2rem rgb(178, 212, 255);
+    transition-property: all ;
+    transition-duration: 0.5s;
+    
+}
+#picture1:hover{
+    transform: scale(1.1);
+}
+ .picture #picture1  a{
+    color: #fff;
+}
+
+
+#picture2{
+    box-shadow: 0 0 2rem rgb(124, 124, 124);
+    transition-property: all ;
+    transition-duration: 0.5s;
+}
+#picture2:hover{
+    transform: scale(1.1);
+}
+.picture #picture2  a{
+    color: #fff;
+}
+
+#picture3{
+    box-shadow: 0 0 2rem rgb(255, 255, 255);
+    transition-property: all ;
+    transition-duration: 0.5s;
+}
+#picture3:hover{
+    transform: scale(1.1);
+}
+.picture #picture3  a{
+    color: #fff;
+}
+
+#explain1{
+    position: absolute;
+    bottom: -174rem;
+    left: 10rem; 
+    font-size: 1.1rem;
+   
+    
+}
+#explain2{
+    position: absolute;
+    bottom: -172rem;
+    left: 32rem;
+    font-size: 1.1rem;
+    
+}
+#explain3{
+    position: absolute;
+    bottom:-172rem ;
+    left:55rem;
+    font-size: 1.1rem;
+}
+
+
+/* --------------------------------------------contact me----------------------------------------------------- */
+#contact h1{
+    position: absolute;
+    bottom: -184rem ;
+    left: 10rem;
+    font-size: 2.4rem;
+    color: red;
+    text-decoration: underline red;
+    font-weight: bold;
+}
+#contact h1:hover{
+    font-size: 2.5rem;
+}
+
+.me{
+    position: absolute;
+    bottom: -220rem;
+    left: 10rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+.me ul li span{
+color: red;
+}
+
+.btn.btn2{
+display: inline-block;
+background: #ff004f;
+font-size: 1.2rem;
+font-weight: bold;
+transition-property: all;
+transition-duration: 0.5s;
+
+}
+.btn.btn2:hover{
+    transform: scale(1.1);
+}
+#contact details form{
+width: 100%;
+}
+
+form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px ;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 300;
+    margin-top: 18px;
+    position: absolute;
+    bottom: -230rem;
+    
+    font-size: 1.2rem;
+    background: #262626;
+}
+/* 
+------------------------------------------css for small scren----------------------------------------------- */
+@media only screen and (max-width:600px) {
+    .tab-title{
+        position: absolute;
+        bottom: -15rem;
+        left:50rem;
+        font-size: 5rem;
+    }
+    #section #educt{
+        position: absolute;
+        bottom: -93rem;
+        left: 50rem;
+        font-size: 2.5rem;
+    }
+    #circle{
+        position: absolute;
+        left: 30rem;
+        background-size: cover;
+    }
+    #homi{
+        position: absolute;
+        bottom: 18rem;
+        right: -6rem;
+    }
+    .copyright{
+        width: 350%;
+    }
+    #fof #cs{
+        font-size: 2rem;
+    }
+    #cs{
+        font-size: 2rem;
+        line-height: 2rem;
+        position: absolute;
+        top:80rem;
+    }
+    .skill-section{
+        position: absolute;
+        bottom: -120rem;
+    }
+    #explain2{
+        position: absolute;
+        bottom: -200rem;
+    }
+    #explain3{
+        position: absolute;
+        bottom: -200rem;
+    }
+} 
+
+#msg{
+    color: greenyellow;
+}
